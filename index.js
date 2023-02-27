@@ -36,3 +36,8 @@ document.getElementById('input-field').addEventListener('keyup', function (event
         submitEmail.setAttribute('disabled', true)
     }
 })
+
+document.getElementById('email-bg').addEventListener('dblclick', function () {
+    const changeBg = document.getElementById('email-bg');
+    changeBg.style.backgroundColor = 'yellow'
+})
